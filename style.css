@@ -1,0 +1,141 @@
+.container{
+    display: flex; 
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2.25  ;
+    background-color: #E5E7EB;
+    
+    gap: 10px;
+    
+}
+.form{
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+
+
+}
+.left{
+    flex: 1 ;
+    font-size: 60px;
+    background-image: url(pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    position: relative;
+    
+
+}
+.logo-text{
+    font-family: 'CustomFont', Arial, sans-serif;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: overlay; 
+    color: #FFFFFF; 
+    padding: 20px; 
+}
+.logo img{
+    max-height: 150px;
+    max-width: 150px;
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+    font-family: 'CustomFont'; 
+    src: url('Norse-Bold.otf'); 
+  }
+  
+ 
+.top-text{
+    font-size: 30px;
+    padding: 30px;
+} 
+.bellow{
+    font-size: 25px;
+    padding: 30px;
+}
+.bottom{
+    font-size: 25px;
+    
+
+}
+button{
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: #596D48;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+legend{
+    font-size: 30px;
+}
+.form-con{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    flex-wrap: wrap;
+
+}
+.form-con1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-con2{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    font-size: 25px;
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+    
+    
+
+}
+input:hover {
+  border-color: blue;
+  box-shadow: 0 0 1px rgba(21, 21, 237, 0.3);
+}
+input.invalid {
+    border-color: red;
+  }
+  
+input.valid {
+    border-color: green;
+}
+.incorr{
+    color: red;
+}
+.footer{
+    display: flex;
+    padding: 30px;
+    gap: 5px;
+}
+.log{
+    font-size: 25px;
+    font-weight: 600;
+    color: #596D48;
+    
+}
+  
