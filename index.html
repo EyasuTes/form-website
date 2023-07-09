@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer ></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+        <div class="logo-text">
+             <div class="logo" ><img src="odin2.png" alt=""></div> <div class="text">Odin Project</div>
+        </div>
+        </div>
+        
+        <div class="right">
+            <div class="top-text">THIS IS NOT A REAL ONLINE SERVICE! YOU KNOW YOU NEED SOMETHING LIKE THIS IN YOUR LIFE TO HELP YOU REALIZE YOUR DEEPEST DREAMS. SIGN UP NOW TO GET STARTED.</div>
+            <div class="bellow">You know you want to</div>
+            <div class="form">
+                <legend>Let's Do This</legend>
+                <form id='myform' action="results.html" method="GET">
+                    <div class="form-con">
+                        <div class="form-con1">
+                            <label for="first_name">First Name:</label>
+                            <input type="text" id="first_name" name="first_name" required>
+
+                            <label for="email">EMAIL:</label>
+                            <input type="email" name="email" id="email" required>
+
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" pattern="^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,}$" required>     
+                            <div class="incorr"></div>
+                        </div> 
+                        <div class="form-con2">
+                            <label for="last_name">Last Name:</label>
+                            <input type="text" name="last_name" id="last_name" required>
+
+                            <label for="phone-number">Phone-Number:</label>
+                            <input type="tel" name="phone-number" id="phone-number" required>
+
+                            <label for="confirm-password">Confirm-Password:</label>
+                            <input type="password" name="confirm-password" id="confirm-password" pattern="^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,}$" required>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="sub-button"><button type="submit" >Create Account</button></div>
+                </form>
+            </div>
+            
+            <div class="footer"><div class="bottom">Already have an accout?</div> <div class="log">Log in</div></div>
+        </div>
+    </div>
+</body>
+</html>
